@@ -35,8 +35,8 @@ function MemoryGame() {
   return (
     <div className ="memorygame">
       <div className="test-memory-text">Test Your Cyber-Movie Memory</div>
-      <div class ="scrolling-text-container">
-        <p class="scrolling-text"> test Your Cyber-Movie Memory</p>
+      <div className ="scrolling-text-container">
+        <p className="scrolling-text"> test Your Cyber-Movie Memory</p>
       </div>
       <h1>Current Score: {selectedItems.length}</h1>
       <h1>High Score: {bestScore}</h1>
